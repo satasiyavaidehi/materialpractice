@@ -7,4 +7,25 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'materialpractice';
-}
+  menu = [
+    {
+      displayName: 'Home',
+      iconName: '',
+      route: '',
+    },
+    {
+      displayName: 'About',
+      iconName: '',
+      route: 'about',
+    },
+    {
+      displayName: 'Contact',
+      iconName: '',
+      route: 'contact',
+    }
+  ];
+  name = "hello world";
+  // getValue(event: Event): string {
+  //   return (event.target as HTMLInputElement).value;
+  }   
+
